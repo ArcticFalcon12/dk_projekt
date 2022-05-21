@@ -151,14 +151,13 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
-}
-
+} 
 .subtitle-a {
   color: #4e4e4e;
 }
 
 .line-mf {
-  width: 40px;
+  width: 315px;
   height: 5px;
   background-color: #0078ff;
   margin: 0 auto;
@@ -180,7 +179,7 @@ a:hover {
   position: absolute;
   height: 3px;
   background-color: #0078ff;
-  width: 100px;
+  width: 460px;
   bottom: -12px;
 }
 
@@ -676,14 +675,14 @@ a:hover {
   padding-bottom: 4rem;
 }
 
-.about-mf .about-img {
-  margin-bottom: 2rem;
+.about-mf .img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  position: relative;
+  top: -50px;
 }
-
-.about-mf .about-img img {
-  margin-left: 10px;
-}
-
 .skill-mf span {
   color: #4e4e4e;
 }
@@ -868,6 +867,12 @@ a:hover {
 
 .card-blog .card-body {
   position: relative;
+}
+.card-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .card-blog .card-category-box {
